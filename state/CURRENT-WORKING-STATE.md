@@ -1,153 +1,134 @@
 # THE DAILY WINNER — CURRENT WORKING STATE
 
-**Date:** 2026-08-30  
+**Date:** 2026-08-31  
 **Edition:** Main Edition  
-**Status:** Conditions rebuild, UR1 challenge, Stage 3 Decision Room and final Selection Room complete. Prediction board and final six are FROZEN.
+**Status:** Stage 1 Top 3 every race completed from supplied speed figures. UR1 available for independent challenge. Board is NOT frozen pending morning Edge email and official going/non-runner audit.
 
 ## READ FIRST
 Read `methodology/MAIN-EDITION-INSTRUCTIONS.md` before continuing. Do not reconstruct workflow from chat memory.
 
-## TODAY'S SPECIAL CONDITIONS RULE
-Conditions changed radically. Normal preference for same-surface figures within <=50 days remains important, but recency is deliberately softened where older evidence is much more relevant to today's testing ground. This decision was made before the clean rebuild and was applied consistently.
+## SOURCES RECEIVED
+- `Flat_31-08-26_cards.xlsx` — supplied speed figures, 38 races.
+- `proform tomorrow 300826.csv` — Proform including UR1. Prices/tissue fields must remain excluded until prediction freeze.
+- Racing Post Signposts GB PDF.
+- Racing Post Signposts Ireland + naps PDF.
+- Sunday results Proform not yet available; Cheerful Autopsy waits for that file.
+- Racing Post Edge email to be supplied morning of 31 August.
 
-## CURRENT GOING
-- Beverley: Heavy
-- Goodwood: Soft
-- Yarmouth: Soft
-- Cork: Yielding live racecard cross-check; IHRB remains preferred official source if a newer report appears.
+## CONDITIONS RULE
+Normal rule applies: give greatest kudos to strong speed figures on the same surface within 50 days. Same-course evidence, going relevance, distance/class/handicap context and broader form separate close calls.
 
-## CLEAN CONDITIONS REBUILD — STAGE 1 TOP 3
-### Beverley
-- 1.40 Impartiality / Per Contra / Wahdan
-- 2.15 JM Jungle / Badri / Argentine Tango
-- 2.50 Cheeky Chesca / Dorothea Hope / Last Dandelion
-- 3.20 Count Palatine / Financer / On The River
-- 3.55 Harb / Military Girl / Tiriac
-- 4.30 Court Legend / Amantha / Inns And Out
-- 5.05 Jedhi Knight / Time Turner / Elemental Eye
+### Special watch — Roscommon
+Latest IHRB report found on 30 Aug indicated Good, Good to Firm in places with 15–20mm rain forecast before racing. Therefore the Roscommon board below is provisional and must be rechecked against the actual morning going before freeze.
 
-### Cork
-- 1.50 Miss Cornelia / Williamsburg / Mirren
-- 2.25 Beau Army / Aiteall / Cause I Like You
-- 3.00 Bella Isabella / Benevento / Bamako Beach
-- 3.30 Greydreambeliever / Dancing Saxon / Cromac Quay
-- 4.05 Likedbymike / Focaccia / Erosandpsyche
-- 4.40 Keogie / Grande Cuvee / Feel Happy
-- 5.15 Glittering Gem / Lauderdale King / Arch Enemy
+### Southwell
+Treat as AW/Tapeta. Turf figures are not substitutes for relevant AW evidence.
 
-### Goodwood
-- 1.25 George Cross / Mister Whippy / Somerton
-- 2.00 Inspired / Rainbow Nebula / Oliver Show
-- 2.35 Strike Red / Sudden Flight / Toyotomi
-- 3.10 Bayside View / Aperoll / Nuit d'Eclair
-- 3.45 Dunkeld Dreamer / Gloryous / Lorca's Waltz
-- 4.20 Maxident / Premiere Ligne / Personal Best
-- 4.55 Obito / A Major Payne / Due To Henry
+## STAGE 1 — PRICE-BLIND TOP 3 EVERY RACE
 
-### Yarmouth
-- 2.20 Rocsane / Theft / Top Cote
-- 2.55 Kinswoman / Elara May / Seven Questions
-- 3.25 Patrol / Moonjid / Triple Double A
-- 4.00 Court Drive / Methgal / Noble Guest
-- 4.35 Cuban Girl / Campani / Pickering Castle
-- 5.10 Ecclefechan / Big Alex Walmsley / Crimson Rambler
+### Chepstow
+- 1.45 Crystal Kraken / Lion Of Persia / Our Fella
+- 2.20 Washington Royale / Beechwood Glory / Ischgl
+- 2.55 Geemann / Kodicall / Perola
+- 3.30 Prince Ali / Ajrad / Escape Magic
+- 4.00 A Rose Adaay / Vape / Lady Margret
+- 4.35 Spirit Of The Bay / Eutropia / Kodi Fire
+- 5.10 Level Up / Some Nightmare / Magna
+- 5.45 Liberate / Stipulation / Zambezi Magic
 
-## STAGE 3 — PRICE-BLIND DECISION ROOM (FROZEN)
-Combined clean Conditions Top 3 + Proform UR1 independent challenge + Edge/Signposts intelligence. Prices were not allowed to alter prediction ranking.
+### Epsom
+- 1.50 Em Four / Logi Bear / Twirler
+- 2.25 Summer Triangle / Artemis Star / Red Tail
+- 3.00 Naval Light / Aurora Majesty / Velvet Rhythm
+- 3.35 Divine Knight / Dancing Tiger / Epictetus
+- 4.05 Trio / Almekarem / Perfect Scoundrel
+- 4.40 Oj Lifestyle / Amused / H Key Lails
+- 5.15 Dapper Guest / French Affair / Play Me
 
-| Horse | Race | Conditions | UR1 | Verdict |
-|---|---|---:|---:|---|
-| Patrol | Yarmouth 3.25 | #1 | #1 | A+ |
-| Obito | Goodwood 4.55 | #1 | #2 | A |
-| Mister Whippy | Goodwood 1.25 | #2 | #1 | A |
-| Harb | Beverley 3.55 | #1 | #1 | A |
-| Kinswoman | Yarmouth 2.55 | #1 | #1 | A |
-| Dunkeld Dreamer | Goodwood 3.45 | #1 | #1 | A |
-| Beau Army | Cork 2.25 | #1 | #1 | A- |
-| Galyx | Beverley 1.40 | outside Stage-1 Top 3 | #5 | A- conditions wild card |
-| Cuban Girl | Yarmouth 4.35 | #1 | #1 | B+ |
-| Rocsane | Yarmouth 2.20 | #1 | #1 | B+ |
-| Court Drive | Yarmouth 4.00 | #1 | #4 | B+ |
-| Greydreambeliever | Cork 3.30 | #1 | #13 | Contrarian only |
+### Ripon
+- 1.55 Travellers Girl / Arenite / Ouragan
+- 2.30 Time Thief / Peace Belle / Feelin Free
+- 3.05 Pure Mint / Harry Knows / Rogue Jewel
+- 3.40 Spoken Truth / Milteye / Mirsky
+- 4.10 Happier / Thornaby Pearl / Rock Of England
+- 4.45 Trucial Pearl / Copper And Five / Volenti
+- 5.20 Back From Dubai / Tiberio Force / Ten Sixty Six
+- 5.50 Woodleigh / Star Start / Kitsune Power
 
-### Galyx resolution
-RaceMetrics career evidence supplied by the user confirms genuine slow-ground aptitude: won on Heavy at Leicester (8 Oct 2024), won on Soft at Windsor (6 May 2024), and placed on Soft multiple times including Carlisle (25 Jun 2025) and Carlisle (30 May 2024), plus Newbury Soft fourth (20 Sep 2024). Edge's statement that slow ground is essential is therefore supported by actual history. Galyx was restored as an evidence-led conditions wild card despite UR1 #5 and omission from the clean Stage-1 Top 3.
+### Roscommon — PROVISIONAL PENDING MORNING GOING
+- 4.50 Rulers Control / South Dakota / Lars Soldier
+- 5.25 Shamanka / Phoenix Pairc / Brains
+- 5.55 Earls / Gavoo / Goal Exceeded
+- 6.25 God Of Power / Dial Me In / Sinmara
+- 6.55 Shemiyka / Almazann / Michinaga
+- 7.25 Thyer / Youcansaythatagain / Letiza
+- 7.55 Canon Law / Glen Echo / Augusta Rock
 
-### Important disagreement resolution
-- Greydreambeliever remains conditions #1 but UR1 #13, faces a material class/OR question, and Edge highlighted Spinning Around as a serious challenger. Retain only as contrarian/value interest, not an A-list predictive selection.
-- On The River: conditions #3, UR1 #6; not promoted.
-- Count Palatine: conditions #1, UR1 #8; not promoted to headline shortlist.
-- Goodwood 3.10 Bayside View/Aperoll: convergence noted, but supplied figures are principally Good-to-Firm and official going is Soft; not promoted.
-- Messy disagreement races Cork 1.50, Cork 4.05 and Goodwood 4.20 were deliberately left alone rather than forcing a selection.
+### Southwell
+- 1.32 Beautiful Effort / Viking Barbie / Delighfully Hot
+- 2.07 Lednikov / Edwardtheninth / Blue Tulip
+- 2.42 Bearwith / Golspie / Everyoneknowsadave
+- 3.17 Relevant Range / Portman Blue / Soames Forsyte
+- 3.51 Filly Eilish / Legacy Rock / Silky Lass
+- 4.25 Kiani King / Alkumatic Jo Jo / Ballybunion
+- 5.00 Dicko The Legend / Travel Agent / Hectic
+- 5.35 Golden Harvest / Yes Waliim / Based
 
-## CURRENT BET365 PRICES — USER ODDSCHECKER SCREENSHOTS
-These were introduced only after the Stage-3 prediction board was frozen.
-- Mister Whippy — Goodwood 1.25 — 10/3
-- Galyx — Beverley 1.40 — 11/4
-- Rocsane — Yarmouth 2.20 — 6/5
-- Beau Army — Cork 2.25 — 15/2
-- Kinswoman — Yarmouth 2.55 — 8/11
-- Patrol — Yarmouth 3.25 — 7/2
-- Greydreambeliever — Cork 3.30 — 50/1
-- Dunkeld Dreamer — Goodwood 3.45 — 11/4
-- Harb — Beverley 3.55 — 5/1
-- Court Drive — Yarmouth 4.00 — 4/1
-- Cuban Girl — Yarmouth 4.35 — 15/2
-- Obito — Goodwood 4.55 — 6/1
+## EARLY STANDOUT FIGURE PROFILES
+These are internal notes only; raw speed numbers are not for ordinary public copy.
+- Crystal Kraken, Chepstow 1.45 — 66 at Chepstow 23d.
+- Geemann, Chepstow 2.55 — 67 at Chepstow 23d plus 67 at Windsor 15d.
+- Prince Ali, Chepstow 3.30 — 77 at Chepstow 39d.
+- Spirit Of The Bay, Chepstow 4.35 — 81 turf 49d.
+- Level Up, Chepstow 5.10 — 79 Chepstow win 39d.
+- Liberate, Chepstow 5.45 — 79 turf 27d.
+- Em Four, Epsom 1.50 — 77 turf 8d.
+- Naval Light, Epsom 3.00 — 83 turf 48d.
+- Trio, Epsom 4.05 — 80 at Epsom 47d.
+- Time Thief, Ripon 2.30 — 79 turf 27d.
+- Spoken Truth, Ripon 3.40 — 81 turf 21d.
+- Happier, Ripon 4.10 — 79 turf 20d.
+- Thyer, Roscommon 7.25 — 82 turf 16d, subject to going audit.
+- Bearwith, Southwell 2.42 — 80 Tapeta 38d.
+- Filly Eilish, Southwell 3.51 — 75 Southwell win 36d.
+- Dicko The Legend, Southwell 5.00 — 76 Tapeta 15d.
 
-## FINAL SELECTION ROOM — FROZEN
-### TOP 3 TIPS
-1. Patrol — Yarmouth 3.25 — 7/2 Bet365
-2. Mister Whippy — Goodwood 1.25 — 10/3 Bet365
-3. Harb — Beverley 3.55 — 5/1 Bet365
+## UR1 — EARLY CHALLENGE FLAGS
+UR1 is independent and must not be blended invisibly into Stage 1. Early comparisons already show both convergence and useful disagreement.
 
-### TOP 3 VALUE
-1. Beau Army — Cork 2.25 — 15/2 Bet365
-2. Obito — Goodwood 4.55 — 6/1 Bet365
-3. Cuban Girl — Yarmouth 4.35 — 15/2 Bet365
+Strong/clear convergence examples:
+- Crystal Kraken Chepstow 1.45 — Stage 1 #1 / UR1 #1.
+- Geemann Chepstow 2.55 — #1 / #1.
+- Em Four Epsom 1.50 — #1 / #1.
+- Trio Epsom 4.05 — #1 / #1.
+- Filly Eilish Southwell 3.51 — #1 / #1.
+- Dicko The Legend Southwell 5.00 — #1 / #1.
 
-Do not change these because of subsequent market movement. Only reopen for a non-runner or genuinely material new going/raceday information.
-
-## FINAL SIX — KEY LOGIC
-- Patrol: conditions #1 + UR1 #1 + relevant 77 Yarmouth Soft figure. Cleanest methodological selection.
-- Mister Whippy: conditions #2 + UR1 #1; both methods identify exactly the same Top 3 in the race, reversing only first two.
-- Harb: conditions #1 + UR1 #1; recent 73 Good-to-Soft anchor; 5/1 made him a strong betting proposition after the prediction was frozen.
-- Beau Army: conditions #1 + UR1 #1; 15/2 makes him a leading Value candidate, though Yielding evidence is less direct than strongest UK cases.
-- Obito: conditions #1 + UR1 #2; recent 79 Good-to-Soft 21d and Soft history; Bearish is UR1 #1 but Obito has stronger supplied conditions evidence.
-- Cuban Girl: conditions #1 + UR1 #1; Campani is a serious #2/#2 danger, but 15/2 compensates for uncertainty.
-
-## NON-HEADLINE DECISION ROOM NOTES
-- Dunkeld Dreamer 11/4: #1/#1 and respected, but less price appeal than final six.
-- Kinswoman 8/11: #1/#1, strong prediction but not attractive headline value.
-- Rocsane 6/5: #1/#1, good prediction but price restrictive and direct Soft evidence weaker.
-- Court Drive 4/1: respected, but UR1 #4 reduces convergence.
-- Galyx 11/4: fascinating Heavy-ground conditions wild card; lacks clean model convergence of final six.
-- Greydreambeliever 50/1: remains a contrarian longshot only; price does not erase UR1/class warnings.
-
-## EDITORIAL — ROAD TO PARIS
-Recurring feature established: `THE ROAD TO PARIS` — The Daily Winner's developing look at the 2026 Prix de l'Arc de Triomphe.
-- Hero image: `assets/daryz.jpg` supplied/placed by user.
-- Lead: reigning Arc winner/current market leader Daryz.
-- Constitution Hill link: Bay City Roller is expected to meet Constitution Hill in the September Stakes at Kempton as a prep toward the Arc.
-- Bay City Roller becomes the first `ARC WATCH` horse.
-- Feature should include a brief contenders/market check and ground angle, then be revisited when meaningful Arc news/trials occur rather than mechanically every day.
-- Long-term thread: Constitution Hill -> Bay City Roller -> Arc; follow trials, runners, market, withdrawals and eventually apply Daily Winner speed/ground analysis closer to declarations.
+Important challenge examples to investigate in the morning:
+- Chepstow 3.30: Escape Magic is UR1 #1 but Stage 1 #3; Prince Ali remains Stage 1 #1 on the supplied recent course figure.
+- Chepstow 4.35: Kodi Fire is UR1 #2 while Stage 1 #3; Stage 1 #1 Spirit Of The Bay is UR1 #7 and Eutropia is UR1 #14.
+- Chepstow 5.45: Ghost Story is UR1 #1 but absent from Stage 1 Top 3 because its stronger supplied figure is stale; Liberate is Stage 1 #1 / UR1 #2.
+- Epsom 3.00: Velvet Rhythm is UR1 #1 but Stage 1 #3; Naval Light remains Stage 1 #1 on the standout recent turf figure.
+- Epsom 4.40: Super Hit is UR1 #1 but outside Stage 1 Top 3; Oj Lifestyle is Stage 1 #1 / UR1 #2.
+- Ripon 3.05: Rogue Jewel is UR1 #1 but Stage 1 #3.
+- Ripon 3.40: Milteye is UR1 #1; Spoken Truth remains Stage 1 #1 on the stronger recent figure.
+- Ripon 4.10: Our Absent Friends is UR1 #1 but outside Stage 1 Top 3 in a very competitive recent-figure race.
+- Roscommon races must not be resolved until the morning going is known.
+- Southwell 3.17 is weak on recent high-level AW evidence and deserves a deliberate challenge before shortlist use.
 
 ## EXACT NEXT ACTION
-Build the 30 August Main Edition HTML using the established Daily Winner styling, including:
-- Top 3 Tips
-- Top 3 Value
-- rebuilt Top 3 Every Race
-- today's conditions/rebuild explanation
-- Road to Paris editorial with `assets/daryz.jpg`
-No selection tinkering unless an NR or material going change occurs.
+Morning of 31 August:
+1. Receive Racing Post Edge email.
+2. Check BHA and IHRB official going/non-runners and material raceday changes.
+3. Rebuild only races materially affected by changing conditions, especially Roscommon.
+4. Complete full UR1 + Edge challenge against this saved Stage 1 board.
+5. Build the price-blind Decision Room.
+6. Declare PREDICTION BOARD FROZEN only after those checks.
+7. Then and only then introduce Bet365 prices using the Oddschecker URL Method.
+8. Sunday results file, when available, is used for Cheerful Autopsy; do not invent Sunday result statistics before it arrives.
 
 ## DO NOT REDO
-- Main Edition methodology file
-- Today's conditions decision
-- Stage 1 clean Conditions Rebuild
-- UR1 audit
-- Stage 3 Decision Room
-- Galyx RaceMetrics resolution
-- Final Selection Room
-- Bet365 screenshot readings
+- Main Edition instruction sheet read.
+- 31 August source ingestion.
+- 38-race Stage 1 Top 3 board above.
+- Initial UR1 comparison and early challenge flags.
