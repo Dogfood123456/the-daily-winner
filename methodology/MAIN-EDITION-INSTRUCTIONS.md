@@ -290,12 +290,21 @@ After racing, record results against the selections that were actually published
 
 Do not rewrite history.
 
-Review:
+**The Cheerful Autopsy has two required scoreboards whenever the previous edition contained both headline bets and Top 3 Every Race predictions:**
 
-- Winners.
-- Top-3 strike rate.
+1. **Headline selections:** review the published Top 3 Tips and Top 3 Value — winners, places, non-runners and notable price/value results.
+2. **Prediction performance:** audit every completed race from the previous edition's published Top 3 Every Race and report:
+   - **NO. 1 WINNERS — X/Y**: races won by our published first choice.
+   - **WINNER IN TOP 3 — X/Y**: races where the actual winner appeared anywhere in our published three.
+   - Exclude abandoned/uncompleted races from Y and explain any material exclusions.
+
+The public Autopsy should normally show these prediction statistics clearly in the scoreboard, not leave them buried in internal notes. The purpose is to keep an honest running measure of the core prediction method as well as the headline betting selections.
+
+Also review where useful:
+
 - Tip/Value performance.
-- UR1 challenge performance where tracked.
+- Significant value capture versus SP.
+- UR1 challenge performance internally where tracked — **do not expose UR1 in public copy**.
 - Whether losses reveal a repeatable methodological issue or ordinary racing variance.
 
 One result is not sufficient evidence to change the model.
@@ -356,6 +365,7 @@ Before publishing, confirm every box:
 - [ ] Top 3 Value selected.
 - [ ] Maximum one headline selection per race.
 - [ ] Daily state file updated.
+- [ ] If there was a previous edition, Cheerful Autopsy includes headline selections **and the Top 3 Every Race prediction scoreboard (No. 1 winners + winner in Top 3)**.
 - [ ] Public copy contains **no exposed internal machinery or raw speed-figure numbers**.
 - [ ] Public reasons are written in natural racing/editorial language.
 - [ ] Draft inspected before replacing live `index.html`, unless immediate publication was explicitly requested.
