@@ -188,13 +188,33 @@ Record the price and EW terms beside every live Decision Room candidate.
 
 Now compare the frozen prediction with the available price.
 
-### TOP 3 TIPS
+### TOP 3 TIPS — WINNER PREDICTIONS, NOT VALUE PICKS
 
-These are the strongest underlying winning cases where the current Bet365 price remains acceptable.
+The Top 3 Tips answer one question only:
 
-### TOP 3 VALUE
+> **Which three horses do we think are the strongest winning prospects today?**
 
-These are horses already identified by the predictive process whose available Bet365 price appears materially bigger than the evidence warrants.
+**Every Top 3 Tip MUST be the published/frozen #1-ranked horse in its own race. A #2 or #3 is ineligible for the Top 3 Tips.**
+
+This is an absolute eligibility rule. A secondary model preferring our #2, strong UR1 support for the #2, or a more attractive price on the #2 does **not** permit that horse to replace our #1 in the Top 3 Tips.
+
+Secondary evidence may:
+
+- strengthen or weaken confidence in our #1;
+- cause us to leave that race out of the Top 3 Tips entirely; or
+- if genuinely new racing evidence emerges before the prediction freeze, trigger a transparent re-examination of the underlying race ranking.
+
+But once the final race ranking is frozen, a #2 cannot become a Top 3 Tip merely because the secondary evidence or market makes it more appealing.
+
+**Price is not the purpose of the Top 3 Tips.** A short-priced #1 can still be a Top Tip if it is one of our three strongest winning predictions. Price can help decide whether we want to bet a #1 at all, but it cannot promote a lower-ranked horse into this section.
+
+### TOP 3 VALUE — PRICE VERSUS PROBABILITY
+
+The Value Desk answers a different question:
+
+> **Which horses are priced materially bigger than the chance our evidence gives them?**
+
+Value selections must already have been identified by the predictive process, but they may be our #1, #2 or #3 in the race when the available price compensates for the lower predictive rank.
 
 A huge price does not make a horse a stronger prediction. It may make the horse a better **value proposition**.
 
@@ -202,7 +222,9 @@ Each-way terms matter, especially where the place part is central to the value c
 
 **Maximum one headline bet per race.**
 
-A horse may qualify conceptually for both Tip and Value; choose the category that best explains why we are betting it.
+A #1 may qualify conceptually for both Tip and Value; choose the category that best explains why we are betting it. A #2/#3 can only appear on the Value Desk, never in Top 3 Tips.
+
+**Simple newspaper distinction: TOP 3 TIPS = WINNERS. VALUE DESK = PRICES.**
 
 ---
 
@@ -361,7 +383,8 @@ Before publishing, confirm every box:
 - [ ] **Every public headline price checked as Bet365 unless explicitly labelled otherwise.**
 - [ ] EW terms checked.
 - [ ] Deep dives completed where required.
-- [ ] Top 3 Tips selected.
+- [ ] **Every Top 3 Tip is the frozen #1-ranked horse in its race — no #2/#3 Tip is permitted.**
+- [ ] Top 3 Tips selected from the strongest eligible #1s.
 - [ ] Top 3 Value selected.
 - [ ] Maximum one headline selection per race.
 - [ ] Daily state file updated.
