@@ -164,7 +164,7 @@ New factual information (e.g. late NR/going change) can trigger a clearly record
 
 ---
 
-## 10. PRICING — ODDsCHECKER URL METHOD
+## 10. PRICING — ODDSCHECKER URL METHOD
 
 Only after the prediction freeze should current prices be introduced.
 
@@ -173,6 +173,7 @@ Use the **Oddschecker URL Method**:
 - Construct/open the exact dated race URL: date + course + off-time + `/winner`.
 - Read the actual bookmaker comparison grid.
 - For the final Bet365 Selection Room, use the **Bet365 column**, not generic best-of-market prices.
+- **All prices printed beside the final Top 3 Tips and Top 3 Value in the Main Edition must be confirmed Bet365 prices unless the newspaper explicitly labels a different bookmaker.**
 - Check each-way terms and enhanced places.
 - Do not rely on search snippets, cached prices or forecast prices.
 - If flattened web extraction makes bookmaker columns ambiguous, use the visual grid/manual confirmation rather than guessing.
@@ -251,6 +252,7 @@ Do **not** expose internal process language in public copy, including:
 - “model convergence”, “independent model agreement”, “conditions #1”, “UR1 #1”, or similar shorthand.
 - Internal grades such as A+, A-, B+ unless deliberately converted into a reader-friendly confidence presentation.
 - References to our internal files, methodology sheets, state files, APIs, spreadsheets or technical workflow.
+- **Raw supplied speed-figure numbers (for example, “a 77 figure”) in ordinary public selection copy. The figures drive the analysis backstage; translate them into natural phrases such as “strong recent form on soft ground”, “a leading recent performance” or “proven under these conditions”. Only print raw speed-figure numbers when we deliberately choose to run a reader-facing feature explaining the figures themselves.**
 
 Instead, translate the evidence into natural racing language.
 
@@ -347,13 +349,14 @@ Before publishing, confirm every box:
 - [ ] Official NR/going recheck completed.
 - [ ] Prediction board frozen.
 - [ ] Bet365 prices obtained only after freeze.
+- [ ] **Every public headline price checked as Bet365 unless explicitly labelled otherwise.**
 - [ ] EW terms checked.
 - [ ] Deep dives completed where required.
 - [ ] Top 3 Tips selected.
 - [ ] Top 3 Value selected.
 - [ ] Maximum one headline selection per race.
 - [ ] Daily state file updated.
-- [ ] Public copy contains **no exposed internal machinery**.
+- [ ] Public copy contains **no exposed internal machinery or raw speed-figure numbers**.
 - [ ] Public reasons are written in natural racing/editorial language.
 - [ ] Draft inspected before replacing live `index.html`, unless immediate publication was explicitly requested.
 - [ ] No retrospective tinkering.
