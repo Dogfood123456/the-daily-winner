@@ -2,7 +2,7 @@
 
 **Status:** Permanent operating procedure  
 **Rule:** READ THIS FILE FIRST before beginning every Main Edition.  
-**Purpose:** Protect the established method from chat loss, forgotten rules, price contamination and retrospective tinkering.
+**Purpose:** Protect the established method from chat loss, forgotten rules, price contamination, retrospective tinkering, and accidental publication of internal working machinery.
 
 ---
 
@@ -236,6 +236,48 @@ The Main Edition should normally contain:
 
 Do not write an autopsy where there were no selections to assess.
 
+### PUBLIC-FACING EDITORIAL RULE — KEEP THE MACHINERY BACKSTAGE
+
+**The Main Edition is a newspaper, not the working notebook.**
+
+The internal process is for us. The reader should see the conclusion, the strongest racing evidence and a clean editorial explanation — **not the architecture of the model**.
+
+Do **not** expose internal process language in public copy, including:
+
+- UR1 or UR1 rank numbers.
+- “Stage 1 / Stage 2 / Stage 3”.
+- “Decision Room” or “Selection Room”.
+- “price-blind”, “prediction freeze”, “frozen board”.
+- “model convergence”, “independent model agreement”, “conditions #1”, “UR1 #1”, or similar shorthand.
+- Internal grades such as A+, A-, B+ unless deliberately converted into a reader-friendly confidence presentation.
+- References to our internal files, methodology sheets, state files, APIs, spreadsheets or technical workflow.
+
+Instead, translate the evidence into natural racing language.
+
+Examples:
+
+- Internal: **“Conditions #1 + UR1 #1.”**  
+  Public: **“Everything we looked at points the same way, and today's conditions look firmly in his favour.”**
+
+- Internal: **“UR1 #13 major disagreement.”**  
+  Public: **“There are enough questions elsewhere in the evidence to keep this as a speculative value play rather than a confident win selection.”**
+
+- Internal: **“Rebuilt because of Heavy ground.”**  
+  Public: **“The overnight rain changed the complexion of the card, so horses with proven form in testing conditions move sharply up the pecking order.”**
+
+- Internal: **“Price-blind selection.”**  
+  Public: **“We liked the horse before the market entered the conversation; the available price simply makes the case more appealing.”**
+
+The public explanation should focus on the decisive racing reasons: recent speed, proven going, course/distance suitability, handicap position, current form, race shape and price/value where appropriate.
+
+**Never publish the machinery simply because it exists in the working state.**
+
+### DRAFT-BEFORE-PUBLISH RULE
+
+Unless the user explicitly asks to publish immediately, **build or update a draft first and let the user inspect it before replacing the live `index.html`.**
+
+Publishing to the live homepage is a separate step from building the Main Edition.
+
 Keep the public explanation readable. The full technical reasoning belongs in the working state; the newspaper should communicate the decisive evidence rather than dump every calculation.
 
 ---
@@ -311,6 +353,9 @@ Before publishing, confirm every box:
 - [ ] Top 3 Value selected.
 - [ ] Maximum one headline selection per race.
 - [ ] Daily state file updated.
+- [ ] Public copy contains **no exposed internal machinery**.
+- [ ] Public reasons are written in natural racing/editorial language.
+- [ ] Draft inspected before replacing live `index.html`, unless immediate publication was explicitly requested.
 - [ ] No retrospective tinkering.
 
 ---
