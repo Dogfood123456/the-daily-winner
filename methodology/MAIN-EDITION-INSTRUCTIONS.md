@@ -182,6 +182,8 @@ Never describe The Racing API's “best of X books” price as Bet365.
 
 Record the price and EW terms beside every live Decision Room candidate.
 
+For the permanent detailed EW/concessions policy, also read `methodology/EACH-WAY-CONCESSIONS-RULE.md`. Core rule: **bookmaker concessions can influence HOW we bet a selection, never WHICH horse we select.** Around 6/1+ triggers an EW review, not an automatic EW bet; extra-place concessions must be actively checked and the advised WIN/EW terms recorded before publication.
+
 ---
 
 ## 11. SELECTION ROOM — TIPS VS VALUE
@@ -302,6 +304,22 @@ Unless the user explicitly asks to publish immediately, **build or update a draf
 
 Publishing to the live homepage is a separate step from building the Main Edition.
 
+### PERMANENT EDITION ARCHIVE
+
+GitHub is also the permanent historical archive of what readers actually saw.
+
+Use:
+
+- `archive/main/YYYY/MM/YYYY-MM-DD.html` for Main Editions.
+- `archive/evening/YYYY/MM/YYYY-MM-DD.html` for Evening Editions.
+- `archive/tipster-tracker/YYYY/MM/YYYY-MM-DD.html` for Tipster Tracker editions.
+
+**Before replacing a live edition, preserve the edition being replaced under its dated archive path.** Once a published edition is archived, treat it as immutable historical evidence: do not silently rewrite selections, prices, EW terms, rankings, editorial or results because later information or methodology changes make the old edition look untidy.
+
+Where the exact published HTML already exists immutably in Git history, an archive record may point to the exact publication commit/blob rather than reconstructing the edition. Historical searchability and verifiability are the priorities.
+
+If a genuine correction is required, preserve the original and document the correction rather than rewriting history.
+
 Keep the public explanation readable. The full technical reasoning belongs in the working state; the newspaper should communicate the decisive evidence rather than dump every calculation.
 
 ---
@@ -381,7 +399,7 @@ Before publishing, confirm every box:
 - [ ] Prediction board frozen.
 - [ ] Bet365 prices obtained only after freeze.
 - [ ] **Every public headline price checked as Bet365 unless explicitly labelled otherwise.**
-- [ ] EW terms checked.
+- [ ] EW terms and extra-place concessions checked; advised WIN/EW terms recorded before publication.
 - [ ] Deep dives completed where required.
 - [ ] **Every Top 3 Tip is the frozen #1-ranked horse in its race — no #2/#3 Tip is permitted.**
 - [ ] Top 3 Tips selected from the strongest eligible #1s.
@@ -391,15 +409,5 @@ Before publishing, confirm every box:
 - [ ] If there was a previous edition, Cheerful Autopsy includes headline selections **and the Top 3 Every Race prediction scoreboard (No. 1 winners + winner in Top 3)**.
 - [ ] Public copy contains **no exposed internal machinery or raw speed-figure numbers**.
 - [ ] Public reasons are written in natural racing/editorial language.
-- [ ] Draft inspected before replacing live `index.html`, unless immediate publication was explicitly requested.
-- [ ] No retrospective tinkering.
-
----
-
-# DAILY OPENING INSTRUCTION
-
-At the beginning of every Main Edition conversation:
-
-> **Read `methodology/MAIN-EDITION-INSTRUCTIONS.md` first. Then read `state/CURRENT-WORKING-STATE.md` if it exists. Do not begin race analysis until both have been checked.**
-
-This instruction overrides the temptation to reconstruct the method from conversational memory.
+- [ ] Draft inspected before replacing live edition unless explicit immediate publication was requested.
+- [ ] **Edition being replaced has been preserved in the permanent archive / exact immutable Git publication record exists.**
