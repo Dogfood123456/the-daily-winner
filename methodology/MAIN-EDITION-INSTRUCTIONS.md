@@ -210,6 +210,25 @@ But once the final race ranking is frozen, a #2 cannot become a Top 3 Tip merely
 
 **Price is not the purpose of the Top 3 Tips.** A short-priced #1 can still be a Top Tip if it is one of our three strongest winning predictions. Price can help decide whether we want to bet a #1 at all, but it cannot promote a lower-ranked horse into this section.
 
+### HEADLINE RACE SUITABILITY — DO WE NEED TO BE INVOLVED?
+
+A strong #1 ranking does **not** automatically make the race suitable for one of only three Main Tip boxes.
+
+Before promoting a #1 into the Top 3 Tips, ask a separate question:
+
+> **Is this a race in which we have enough established evidence and a sufficiently reliable race shape to justify being deeply involved?**
+
+Treat the following as reasons for caution when choosing headline Tips:
+
+- Very small fields where tactics can dominate the result.
+- Maidens/novices with lightly raced or unexposed horses and limited reliable evidence.
+- Races combining both factors — especially small-field maidens/novices — where one improver or an unusual tactical setup can overturn an otherwise strong-looking ranking.
+- Any race where the evidence supports our ordering but the underlying uncertainty is materially greater than in other available races.
+
+This is **not an exclusion rule for the predictive Top 3**. Continue to rank these races normally and publish them in Top 3 Every Race. It is a **headline-bet filter**: with an entire day's card available, prefer robust races with established evidence and a dependable shape when choosing only three Main Tips.
+
+Do not retrospectively downgrade a race simply because our #1 lost. Apply this suitability test before headline selections are finalised.
+
 ### TOP 3 VALUE — PRICE VERSUS PROBABILITY
 
 The Value Desk answers a different question:
@@ -418,6 +437,7 @@ Before publishing, confirm every box:
 - [ ] EW terms and extra-place concessions checked; advised WIN/EW terms recorded before publication.
 - [ ] Deep dives completed where required.
 - [ ] **Every Top 3 Tip is the frozen #1-ranked horse in its race — no #2/#3 Tip is permitted.**
+- [ ] **Headline race suitability checked — avoid unnecessary involvement in small-field/lightly exposed races where tactics or limited evidence create materially greater uncertainty.**
 - [ ] Top 3 Tips selected from the strongest eligible #1s.
 - [ ] Top 3 Value selected.
 - [ ] Maximum one headline selection per race.
