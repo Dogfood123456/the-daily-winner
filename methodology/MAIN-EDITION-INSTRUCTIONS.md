@@ -261,6 +261,22 @@ The Main Edition should normally contain:
 
 Do not write an autopsy where there were no selections to assess.
 
+### TOP 3 EVERY RACE — CONFIDENCE STARS ARE MANDATORY
+
+**Every race in the published Top 3 Every Race section must display a confidence-star rating. Do not omit the stars when rebuilding or redesigning the HTML.**
+
+Use the established scale:
+
+- **⭐⭐⭐ = strong confidence** in the ranking.
+- **⭐⭐ = good confidence** in the ranking.
+- **⭐ = caution / competitive race**.
+
+The stars measure **confidence in our race ranking, not betting value**. A short-priced horse can be one star; a big-priced horse can be three stars if the predictive evidence is strong.
+
+Assign the stars from the completed prediction/Decision Room work before publication. Do not invent them merely for visual balance, and do not change them because of later market moves.
+
+The public legend explaining the three-star scale must appear immediately above or alongside the Top 3 Every Race cards/table. The HTML layout must preserve a visible stars column or equivalent confidence marker on both desktop and mobile.
+
 ### PUBLIC-FACING EDITORIAL RULE — KEEP THE MACHINERY BACKSTAGE
 
 **The Main Edition is a newspaper, not the working notebook.**
@@ -405,6 +421,7 @@ Before publishing, confirm every box:
 - [ ] Top 3 Tips selected from the strongest eligible #1s.
 - [ ] Top 3 Value selected.
 - [ ] Maximum one headline selection per race.
+- [ ] **Every Top 3 Every Race entry has its confidence stars (⭐⭐⭐ / ⭐⭐ / ⭐) and the legend is visible.**
 - [ ] Daily state file updated.
 - [ ] If there was a previous edition, Cheerful Autopsy includes headline selections **and the Top 3 Every Race prediction scoreboard (No. 1 winners + winner in Top 3)**.
 - [ ] Public copy contains **no exposed internal machinery or raw speed-figure numbers**.
