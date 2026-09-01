@@ -19,6 +19,10 @@ These directly uploaded spreadsheets are the **working copies** used for that da
 
 Do not rely on a GitHub-hosted XLSX as the primary working copy when the same workbook is available directly. GitHub is the permanent archive; the directly uploaded workbook is the preferred analysis copy.
 
+However, if a directly uploaded workbook is announced as available but cannot actually be opened by the analysis environment, do not get trapped in repeated re-uploads of the same data. Move immediately to the preserved machine-readable GitHub companion where available.
+
+A source-access failure is an infrastructure problem, not permission to infer missing fields or reconstruct the racecard from memory.
+
 ---
 
 ## 2. GITHUB PERMANENT DATA ARCHIVE
@@ -35,6 +39,7 @@ data/
     andy-h.csv
     proform.csv
     tdw-frozen-board.csv
+    rp-selection-box.csv
     results.csv
 ```
 
@@ -53,6 +58,14 @@ This is essential because GitHub can preserve XLSX files reliably while later ac
 Column names from the original source must be preserved wherever possible.
 
 In particular, Proform fields such as **UR1 / Power Rating rankings must be identified from the actual column heading**, never inferred from column position, neighbouring fields or apparently plausible values.
+
+For Proform Top-3 extraction, positively identify the actual header **`UR1_Rank`** and use:
+
+- `UR1_Rank = 1` → Proform #1
+- `UR1_Rank = 2` → Proform #2
+- `UR1_Rank = 3` → Proform #3
+
+Never reconstruct a Proform Top 3 from another nearby rating field because the values happen to look plausible.
 
 The CSV copy is an audit companion to the original XLSX, not a replacement for it.
 
@@ -104,7 +117,7 @@ Headline Candidate
 Final Headline Status
 ```
 
-Where practical also preserve race type, field size and other pre-race descriptors useful for later analysis.
+Where practical also preserve race type, field size, surface and other pre-race descriptors useful for later analysis.
 
 Later information must never silently rewrite the original frozen rankings.
 
@@ -166,7 +179,52 @@ RPR agreement is an internal challenge/validation tool and should not normally b
 
 ---
 
-## 8. RESULTS ARCHIVE
+## 8. RACING POST SELECTION-BOX FREEZE
+
+Where Racing Post selection-box data is available, preserve it **before racing** rather than trying to reconstruct it after the results are known.
+
+The standard archive columns are:
+
+```text
+Meeting
+Time
+Spotlight
+RP Ratings
+Topspeed
+Postdata
+```
+
+Operational sequence:
+
+> **Night before: freeze RP selection-box data → Morning: freeze TDW and Proform/UR1 data → After racing: score all preserved methods against the official result.**
+
+If a selection cannot be read confidently from the source, mark it for verification. Do not guess a difficult name simply to complete the table.
+
+This archive exists to make later press-league comparisons reproducible and prospective.
+
+---
+
+## 9. RESERVES AND NON-RUNNERS
+
+Ordinary non-runners and Irish reserves must not be treated as the same thing for performance scoring.
+
+### Ordinary non-runner
+
+If a frozen TDW #1 is withdrawn in the normal way, preserve that original #1 and exclude it from the #1 strike-rate denominator where appropriate. Do **not** silently promote #2 and pretend it was always the selection.
+
+### Irish reserve that never makes the field
+
+Where the source racecard includes reserves, identify them before the freeze where possible and rank the intended main field separately, with reserves held underneath.
+
+If a reserve was included in the frozen ranking but **never obtains a place in the actual field**, preserve the original ranking for audit but treat the highest-ranked actual runner as the **effective/live #1** for performance scoring.
+
+The race record must make this distinction explicit so the original opinion and the live-field statistic can both be reconstructed later.
+
+A failed-to-get-in reserve must never be scored as though it were an ordinary runner that was subsequently withdrawn.
+
+---
+
+## 10. RESULTS ARCHIVE
 
 After racing, append the official result to the archived race record without altering the frozen predictions.
 
@@ -183,6 +241,9 @@ RPR selection/result where available
 UR1 #1/result where available
 UR1 Top-3 hit/miss where available
 Headline bet/result where applicable
+Reserve / NR status where relevant
+Surface
+Country / jurisdiction
 ```
 
 Non-runners must be explicitly identified so denominators can be calculated correctly.
@@ -191,22 +252,62 @@ Do not count a withdrawn #1 as a losing selection when calculating strike rates.
 
 ---
 
-## 9. AUDIT BEFORE COMPARISON
+## 11. PERFORMANCE REPORTING — KEEP THE SPLITS
+
+From now on, performance should be retained at minimum as:
+
+- **Great Britain**
+- **Ireland**
+- **Overall**
+
+Do not allow a combined headline number to hide a materially different record between Britain and Ireland.
+
+Also retain surface/environment splits where the data supports them, particularly:
+
+- **Turf**
+- **All-Weather**
+
+Course, race type, field size and confidence-star splits may also be studied over larger samples.
+
+This is measurement, not permission to rewrite the prediction methodology after a handful of races. The purpose is to discover where the supplied speed figures are genuinely most effective over a meaningful sample.
+
+Headline-box performance must also be kept separately from the full prediction engine. A bad day in the boxes does not erase a good Top-3 engine, and a good box day does not prove every underlying ranking decision was correct.
+
+---
+
+## 12. VALUE SIGNALS WITHOUT MASSAGING THE SCORE
+
+Useful price information may appear even when a selection does not win — for example a large-priced #2 or #3 finishing second or placing prominently.
+
+These **market-underestimated placers** may be logged as a separate research signal, including price and finishing position where useful.
+
+They must never be counted as winners, used to inflate the #1 strike rate, or substituted for the official Top-3 hit statistic.
+
+Keep the concepts separate:
+
+> **Prediction accuracy tells us how often we found the winner. Value evidence tells us whether the rankings may contain useful information that the market underestimated.**
+
+Both matter, but they are not the same statistic.
+
+---
+
+## 13. AUDIT BEFORE COMPARISON
 
 Before publishing or relying on a comparison such as TDW vs RPR vs UR1:
 
 1. Confirm the exact races included.
-2. Confirm non-runners and the correct denominator for each method.
-3. Confirm the external model's actual ranking/selection field from its header.
+2. Confirm non-runners, reserves and the correct denominator for each method.
+3. Confirm the external model's actual ranking/selection field from its header or preserved source.
 4. Score the actual winner against the preserved pre-race selection/ranking.
 5. Use official SP/result data where available.
 6. Reconcile totals against the race-by-race ledger before announcing the headline number.
+7. State whether the figure is GB, Ireland or Overall, and use the same basis when comparing methods.
 
 If an earlier comparison is later discovered to have used a misidentified field, withdraw that statistic and re-audit it from the preserved source rather than trying to repair it from memory.
 
 ---
 
-## 10. DAILY AUDIT PRINCIPLE
+## 14. DAILY AUDIT PRINCIPLE
 
 > **Archive first. Analyse second. Never reconstruct when the original evidence can be preserved.**
 
@@ -220,13 +321,17 @@ The goal is a reproducible historical dataset: original evidence, frozen TDW opi
 
 ---
 
-## 11. FAILURE-SAFE RULE
+## 15. FAILURE-SAFE RULE
 
-If the original XLSX exists in GitHub but cannot be reliably parsed in the current environment:
+If the original XLSX or CSV exists but cannot be reliably parsed in the current environment:
 
 - do **not** infer spreadsheet fields from extracted row positions;
 - do **not** ask the user to repeatedly upload the same file if a machine-readable archive should already exist;
 - use the archived CSV companion where available;
-- if no CSV companion exists, mark the requested statistic as pending verification and create the missing machine-readable archive when the workbook is next available in a parseable environment.
+- where the direct attachment bridge fails, use the GitHub-hosted **small machine-readable CSV** as the first fallback rather than repeatedly changing filenames or formats;
+- if a full Proform export is too large for reliable text retrieval, maintain a reduced racecard/audit CSV containing only the fields actually required for ranking and comparison, while preserving the untouched original separately;
+- if no usable machine-readable companion exists, mark the requested statistic as pending verification and create the missing companion when the workbook is next available in a parseable environment.
+
+Do not assume a source is corrupt merely because an attachment path was announced but is not actually accessible to the analysis runtime.
 
 Accuracy takes priority over producing a number immediately.
