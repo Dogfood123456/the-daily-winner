@@ -26,6 +26,19 @@
     .eagle-banner{position:relative;margin:24px 0 8px;overflow:hidden;background:var(--navy);border-bottom:5px solid var(--gold)}
     .eagle-banner img{display:block;width:100%;height:auto}
     .eagle-caption{position:absolute;left:0;right:0;bottom:0;padding:28px 18px 13px;text-align:center;background:linear-gradient(transparent,#071d49e8);color:#fff;font:900 17px Arial,sans-serif;letter-spacing:2.5px;text-transform:uppercase;text-shadow:0 2px 7px #000}
+    .team-news{margin-top:22px;border:1px solid var(--line);border-top:7px solid var(--gold);background:linear-gradient(135deg,#f7faff,#fff);padding:23px 25px}
+    .team-top{display:flex;justify-content:space-between;align-items:flex-start;gap:20px}
+    .team-top h2{margin:3px 0 4px;color:var(--navy);font:900 28px/1 Arial,sans-serif}
+    .team-top p{margin:0;color:var(--muted);font:700 13px/1.45 Arial,sans-serif}
+    .confirmed{flex:0 0 auto;padding:8px 11px;background:var(--navy);color:#fff;font:900 11px Arial,sans-serif;letter-spacing:1px;text-transform:uppercase}
+    .xi{display:grid;grid-template-columns:repeat(6,1fr);gap:7px;margin:18px 0 14px}
+    .shirt{min-width:0;padding:10px 6px;text-align:center;background:#fff;border:1px solid #cbd6e6;color:var(--navy);font:900 12px/1.15 Arial,sans-serif}
+    .shirt b{display:block;margin-bottom:3px;color:var(--blue);font-size:16px}
+    .shirt.captain{background:var(--navy);color:#fff;border-color:var(--navy)}
+    .shirt.captain b{color:#f5d86d}
+    .team-note{display:flex;justify-content:space-between;gap:18px;padding-top:13px;border-top:1px solid var(--line);font:700 13px/1.5 Arial,sans-serif;color:#364150}
+    .team-note strong{color:var(--navy)}
+    .bench{margin:12px 0 0;font:700 12px/1.55 Arial,sans-serif;color:var(--muted)}
     .headline{display:flex;align-items:center;gap:14px;margin:28px 0 14px}
     .headline h2{margin:0;color:var(--navy);font:900 25px Arial,sans-serif}
     .rule{height:4px;background:var(--gold);flex:1}
@@ -68,8 +81,8 @@
     .verdict p{max-width:760px;margin:0 auto;font-size:15px;line-height:1.6}
     .sources{margin-top:25px;padding-top:14px;border-top:1px solid var(--line);font:700 11px/1.6 Arial,sans-serif;color:#66717e}
     .sources a{color:var(--blue)}
-    @media(max-width:800px){.grid4,.bets{grid-template-columns:repeat(2,1fr)}.lead-grid,.kenny{grid-template-columns:1fr}.kenny img{min-height:0;max-height:440px}.stats{grid-template-columns:repeat(2,1fr)}.stat:nth-child(2){border-right:0}.stat:nth-child(-n+2){border-bottom:1px solid var(--line)}}
-    @media(max-width:540px){.edition{flex-direction:column;gap:5px;padding:12px 15px}main{padding:18px 14px 32px}h1{font-size:44px;letter-spacing:-2px}.standfirst{font-size:16px}.grid4,.bets{grid-template-columns:1fr}.stats{grid-template-columns:1fr}.stat{border-right:0;border-bottom:1px solid var(--line)}.stat:last-child{border-bottom:0}.score-call{border-radius:8px}}
+    @media(max-width:800px){.grid4,.bets{grid-template-columns:repeat(2,1fr)}.lead-grid,.kenny{grid-template-columns:1fr}.kenny img{min-height:0;max-height:440px}.stats{grid-template-columns:repeat(2,1fr)}.stat:nth-child(2){border-right:0}.stat:nth-child(-n+2){border-bottom:1px solid var(--line)}.xi{grid-template-columns:repeat(4,1fr)}}
+    @media(max-width:540px){.edition{flex-direction:column;gap:5px;padding:12px 15px}main{padding:18px 14px 32px}h1{font-size:44px;letter-spacing:-2px}.standfirst{font-size:16px}.grid4,.bets{grid-template-columns:1fr}.stats{grid-template-columns:1fr}.stat{border-right:0;border-bottom:1px solid var(--line)}.stat:last-child{border-bottom:0}.score-call{border-radius:8px}.team-news{padding:19px 15px}.team-top,.team-note{display:block}.confirmed{display:inline-block;margin-top:12px}.xi{grid-template-columns:repeat(3,1fr)}.team-note span{display:block;margin-top:5px}}
   </style>
 </head>
 <body>
@@ -87,6 +100,18 @@
     <section class="eagle-banner" aria-label="Wings of an Eagle">
       <img src="assets/wings-of-an-eagle.webp" width="1400" height="470" loading="lazy" decoding="async" alt="A white eagle flying with its wings fully stretched">
       <div class="eagle-caption">Wings of an Eagle · Sing it loud</div>
+    </section>
+
+    <section class="team-news" aria-labelledby="pne-team-heading">
+      <div class="team-top">
+        <div><div class="eyebrow">📋 Team news · Just in</div><h2 id="pne-team-heading">Confirmed North End XI</h2><p>Probable shape: 3–4–2–1 · Gibson captains the side</p></div>
+        <div class="confirmed">Confirmed</div>
+      </div>
+      <div class="xi" aria-label="Preston North End starting eleven">
+        <div class="shirt"><b>1</b>Iversen</div><div class="shirt"><b>4</b>Clarke</div><div class="shirt"><b>7</b>Devine</div><div class="shirt"><b>10</b>Lang</div><div class="shirt"><b>12</b>Wiley</div><div class="shirt"><b>14</b>Storey</div><div class="shirt"><b>15</b>Thompson</div><div class="shirt"><b>17</b>Mills</div><div class="shirt captain"><b>19</b>Gibson (C)</div><div class="shirt"><b>27</b>Leroy</div><div class="shirt"><b>37</b>Burgzorg</div>
+      </div>
+      <div class="team-note"><strong>Burgzorg leads the line, with Devine and Lang supplying the spark.</strong><span>🐯 Young Kenny waits in the wings.</span></div>
+      <p class="bench"><b>Bench:</b> Nicholls, Vukčević, Lindsay, Erabi, Small, Gibbs, Moran, Offiah, Kenny.</p>
     </section>
 
     <div class="headline"><h2>🤍 The positive PNE case</h2><div class="rule"></div></div>
@@ -111,10 +136,10 @@
       <img src="assets/young-kenny-tiger-web.webp" width="1100" height="618" loading="lazy" decoding="async" alt="Young Kenny in PNE colours with playful tiger face paint">
       <div class="kenny-copy">
         <div class="eyebrow">🐯 Young Kenny</div>
-        <h2>Ready to become a derby-day hero?</h2>
+        <h2>Waiting in the wings…</h2>
         <p>Johnny Kenny arrives at Deepdale carrying something this PNE side desperately needs: the instinct to turn chances into goals. He is quick, direct and happiest attacking the space behind a defence. His prolific spell with Shamrock Rovers — including five goals in six Conference League matches — showed that he can deliver when the occasion grows.</p>
         <p>Kenny is not being asked to rescue an entire season on his own. He represents something more encouraging: the beginning of the North End side Paul Heckingbottom intended to build, rather than the incomplete version forced through a difficult pre-season.</p>
-        <p class="last">A home derby would be quite an introduction. Whether starting or emerging from the bench, Kenny brings fresh legs, movement and the possibility that one of those PNE chances finally falls to a natural finisher. If North End are about to turn the corner, Young Kenny might be the man who points them in the right direction.</p>
+        <p class="last">Young Kenny begins on the bench, so the first-goalscorer dream is parked — but the late-hero storyline is very much alive. His pace and movement give North End a genuine attacking change if the derby needs one. If PNE are about to turn the corner, he might still be the man who points them in the right direction.</p>
       </div>
     </section>
 
@@ -122,7 +147,7 @@
     <section class="bets">
       <article class="bet main"><div class="tag">⭐ Main bet</div><h3>Preston to win</h3><div class="odds">8/5</div><p>Not a timid double chance. The market already makes PNE favourites; at 8/5 we are backing the reset, the crowd and the new faces to produce the first league points in one hit.</p></article>
       <article class="bet"><div class="tag">⚽ Goals angle</div><h3>Both teams to score</h3><div class="odds">3/4</div><p>It has landed in 75% of the last 20 meetings and both teams have recorded a 70% BTTS rate in the early-season data. Useful cover for the 2–1 call.</p></article>
-      <article class="bet"><div class="tag">🎯 Scorer value</div><h3>Delano Burgzorg anytime</h3><div class="odds">7/2</div><p>A price with enough juice to interest us in the expected front two. <b>Team-news rule:</b> only play if he starts.</p></article>
+      <article class="bet"><div class="tag">✅ Confirmed starter</div><h3>Delano Burgzorg anytime</h3><div class="odds">7/2</div><p>He starts at the point of the attack, with Devine and Lang behind him. <b>Team-news condition satisfied:</b> the scorer bet is live.</p></article>
     </section>
 
     <section class="verdict">
@@ -130,7 +155,7 @@
       <p>The early table says Blackburn. The price says Preston. Derby day gives the rebuilt side a clean emotional slate, Rovers are not arriving in great shape themselves, and Deepdale gets a first proper look at the post-window North End. It may be optimism — but it is optimism with evidence. <b>PNE 2–1.</b></p>
     </section>
 
-    <div class="sources">Prices checked 08:38 BST via <a href="https://www.oddschecker.com/football/english/championship/preston-v-blackburn/winner">Oddschecker</a> and may change. Match data supplied by <a href="https://footystats.org/england/preston-north-end-fc-vs-blackburn-rovers-fc-h2h-stats">FootyStats</a>. Team news cross-checked against the <a href="https://www.sportsmole.co.uk/football/preston-north-end/preview/preston-vs-blackburn-prediction-team-news-lineups_604423.html">match preview</a>. Check confirmed line-ups before betting. Betting involves risk. 18+. Gamble responsibly.</div>
+    <div class="sources">Prices checked 08:38 BST via <a href="https://www.oddschecker.com/football/english/championship/preston-v-blackburn/winner">Oddschecker</a> and may change. Match data supplied by <a href="https://footystats.org/england/preston-north-end-fc-vs-blackburn-rovers-fc-h2h-stats">FootyStats</a>. PNE XI updated from the club's confirmed team graphic; pre-match availability cross-checked against the <a href="https://www.sportsmole.co.uk/football/preston-north-end/preview/preston-vs-blackburn-prediction-team-news-lineups_604423.html">match preview</a>. Betting involves risk. 18+. Gamble responsibly.</div>
   </main>
 </article>
 </body>
