@@ -1,1 +1,33 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The Daily Winner — Saturday 12 September 2026</title><style>html,body{margin:0;min-height:100%;background:#fff;font-family:Arial,sans-serif}.loading{text-align:center;padding:50px;font-weight:700}</style></head><body><div class="loading">Loading Saturday's Daily Winner…</div><script>fetch('/drafts/main-edition-2026-09-12.html').then(r=>r.text()).then(h=>{h=h.replace('<h1>250 YEARS OF THE ST LEGER</h1><h2>History at Doncaster as the world\'s oldest Classic celebrates its 250th running</h2><p>Christmas Day arrives attempting to add the St Leger to his Derby crown, but this is no coronation. The Daily Winner\'s supplied speed evidence makes the Classic one of the most intriguing races of the entire Saturday card.</p>','<h1>PIERRE THE GRINCH? 🎄🏆</h1><h2>Christmas Day bids for a historic Derby–St Leger double — but Pierre Bonnard tops our three for the 250th running</h2><p><b>OUR ST LEGER TOP 3:</b> 🥇 Pierre Bonnard &nbsp;·&nbsp; 🥈 Hatteen &nbsp;·&nbsp; 🥉 Rebel Rocker</p>');document.open();document.write(h);document.close()}).catch(()=>{document.body.innerHTML='<div class="loading">Saturday edition is temporarily unavailable. Please refresh.</div>'})</script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>The Daily Winner — Saturday 12 September 2026</title>
+  <style>html,body{margin:0;min-height:100%;background:#fff;font-family:Arial,sans-serif}.loading{text-align:center;padding:50px;font-weight:700}</style>
+</head>
+<body>
+  <div class="loading">Loading Saturday's Daily Winner…</div>
+  <script>
+    fetch('/drafts/main-edition-2026-09-12.html')
+      .then(r => r.text())
+      .then(h => {
+        h = h.replace(
+          '<h1>250 YEARS OF THE ST LEGER</h1><h2>History at Doncaster as the world\'s oldest Classic celebrates its 250th running</h2><p>Christmas Day arrives attempting to add the St Leger to his Derby crown, but this is no coronation. The Daily Winner\'s supplied speed evidence makes the Classic one of the most intriguing races of the entire Saturday card.</p>',
+          '<h1>PIERRE THE GRINCH? 🎄🏆</h1><h2>Christmas Day bids for a historic Derby–St Leger double — but Pierre Bonnard tops our three for the 250th running</h2><p><b>OUR ST LEGER TOP 3:</b> 🥇 Pierre Bonnard &nbsp;·&nbsp; 🥈 Hatteen &nbsp;·&nbsp; 🥉 Rebel Rocker</p>'
+        );
+        [
+          ['<b>Revich</b> · Arundel · Shahbaz', '<b>Revich</b> · Shahbaz <em>(Arundel NR)</em>'],
+          ['<b>Biscaysian</b> · Orchard Hatches · The Sergeon', '<b>Biscaysian</b> · Orchard Hatches <em>(The Sergeon NR)</em>'],
+          ['<b>Zermatt Star</b> · Walsingham · Vixey', '<b>Zermatt Star</b> · Vixey <em>(Walsingham NR)</em>'],
+          ['<b>Chico Dulce</b> · Victory Sound · Berning Hot', '<b>Chico Dulce</b> · Berning Hot <em>(Victory Sound NR)</em>'],
+          ['<b>Espanita</b> · Post Rider · Sunshine And Roses', '<b>Espanita</b> · Sunshine And Roses <em>(Post Rider NR)</em>']
+        ].forEach(([from, to]) => { h = h.replace(from, to); });
+        document.open();
+        document.write(h);
+        document.close();
+      })
+      .catch(() => { document.body.innerHTML = '<div class="loading">Saturday edition is temporarily unavailable. Please refresh.</div>'; });
+  </script>
+</body>
+</html>
