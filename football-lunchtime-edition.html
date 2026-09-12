@@ -54,15 +54,16 @@
     .team-card ul{margin:10px 0 0;padding-left:20px}
     .prediction{margin-top:13px;padding:11px 13px;background:var(--navy);color:#fff;font:700 13px/1.5 Arial,sans-serif}
     .prediction b{color:#f5d86d}
-    .lang-feature{display:grid;grid-template-columns:210px 1fr;overflow:hidden;background:var(--navy);color:#fff;border-bottom:6px solid var(--gold)}
-    .lang-number{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:270px;background:linear-gradient(145deg,#0d4fa3,#071d49);font-family:Arial,sans-serif}
-    .lang-number strong{font-size:112px;line-height:.82;color:#f5d86d}
-    .lang-number span{margin-top:16px;font-size:12px;font-weight:900;letter-spacing:1.8px;text-transform:uppercase}
+    .lang-feature{display:grid;grid-template-columns:1.08fr .92fr;overflow:hidden;background:var(--navy);color:#fff;border-bottom:6px solid var(--gold)}
+    .lang-feature img{width:100%;height:100%;min-height:430px;object-fit:cover;display:block}
     .lang-copy{padding:28px}
     .lang-copy .eyebrow{color:#f5d86d}
-    .lang-copy h2{margin:7px 0 12px;font:900 34px/.98 Arial,sans-serif;color:#fff}
+    .lang-copy h2{margin:7px 0 12px;font:900 46px/.92 Arial,sans-serif;color:#fff;text-transform:uppercase;letter-spacing:-1.5px}
     .lang-copy p{font-size:16px;line-height:1.58;color:#edf3ff}
     .lang-copy p:last-child{margin-bottom:0;font-weight:700}
+    .lang-price{display:flex;align-items:center;justify-content:space-between;gap:15px;margin:14px 0 17px;padding:11px 14px;background:#fff;color:var(--navy);border-left:6px solid var(--gold);font-family:Arial,sans-serif;transform:rotate(-1deg);box-shadow:5px 5px 0 #d7b13f}
+    .lang-price span{font-size:12px;font-weight:900;letter-spacing:1.2px}
+    .lang-price strong{color:var(--red);font-size:34px;line-height:1}
     .eyebrow{font:900 11px Arial,sans-serif;letter-spacing:1.4px;text-transform:uppercase;color:var(--blue)}
     .bets{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}
     .bet{border:1px solid var(--line);padding:19px;position:relative}
@@ -76,8 +77,8 @@
     .verdict p{max-width:770px;margin:0 auto;font-size:16px;line-height:1.6}
     .sources{margin-top:25px;padding-top:14px;border-top:1px solid var(--line);font:700 11px/1.6 Arial,sans-serif;color:#66717e}
     .sources a{color:var(--blue)}
-    @media(max-width:800px){.grid4,.bets{grid-template-columns:repeat(2,1fr)}.stats{grid-template-columns:repeat(2,1fr)}.stat:nth-child(2){border-right:0}.stat:nth-child(-n+2){border-bottom:1px solid var(--line)}.lang-feature{grid-template-columns:150px 1fr}.last-week{grid-template-columns:1fr}.scoreboard{justify-self:start}}
-    @media(max-width:600px){.edition{flex-direction:column;gap:5px;padding:12px 15px}main{padding:18px 14px 32px}h1{font-size:44px;letter-spacing:-2px}.standfirst{font-size:16px}.grid4,.bets,.team-watch,.lang-feature{grid-template-columns:1fr}.stats{grid-template-columns:1fr}.stat{border-right:0;border-bottom:1px solid var(--line)}.stat:last-child{border-bottom:0}.score-call{border-radius:8px}.lang-number{min-height:170px}.lang-number strong{font-size:86px}.last-week h2{font-size:24px}}
+    @media(max-width:800px){.grid4,.bets{grid-template-columns:repeat(2,1fr)}.stats{grid-template-columns:repeat(2,1fr)}.stat:nth-child(2){border-right:0}.stat:nth-child(-n+2){border-bottom:1px solid var(--line)}.lang-feature{grid-template-columns:1fr}.lang-feature img{min-height:0;max-height:510px}.last-week{grid-template-columns:1fr}.scoreboard{justify-self:start}}
+    @media(max-width:600px){.edition{flex-direction:column;gap:5px;padding:12px 15px}main{padding:18px 14px 32px}h1{font-size:44px;letter-spacing:-2px}.standfirst{font-size:16px}.grid4,.bets,.team-watch{grid-template-columns:1fr}.stats{grid-template-columns:1fr}.stat{border-right:0;border-bottom:1px solid var(--line)}.stat:last-child{border-bottom:0}.score-call{border-radius:8px}.last-week h2{font-size:24px}.lang-copy h2{font-size:40px}}
   </style>
 </head>
 <body>
@@ -127,10 +128,10 @@
       <article class="team-card"><div class="eyebrow">Lincoln City</div><h3>First-choice Imps should return</h3><p>Lincoln made ten changes for Tuesday's cup defeat, so expect a much stronger and fresher side at Deepdale. Mason Melia is a doubt, while Tendayi Darikwa and Tom Hamer are expected to miss out.</p><ul><li>Three league games unbeaten</li><li>Only one goal conceded across that run</li><li>Likely to keep the game compact</li></ul></article>
     </section>
 
-    <div class="headline"><h2>🔥 Matchday editorial</h2><div class="rule"></div></div>
+    <div class="headline"><h2>🥊 Matchday editorial</h2><div class="rule"></div></div>
     <section class="lang-feature">
-      <div class="lang-number"><strong>3</strong><span>League goals</span></div>
-      <div class="lang-copy"><div class="eyebrow">Callum Lang · The man in form</div><h2>Make Deepdale his stage again.</h2><p>The rebuild needed somebody to turn promise into goals. Lang has taken the job. His derby double gave North End their first league win, then he followed it with the goal at Watford. In a team still learning itself, that certainty matters.</p><p>Lincoln will be organised and difficult to prise open. That makes Lang's directness, movement and willingness to attack the penalty area even more important. Young Kenny may get his moment too — but today the clearest attacking story belongs to the man already writing it.</p><p>And with Lincoln's travelling contingent unlikely to test the structural limits of the Bill Shankly Kop, this should sound and feel overwhelmingly like North End's ground. No excuses: make the noise, take the initiative and give the compact red-and-white delegation a long journey home.</p></div>
+      <img src="assets/clubber-lang-web.webp" width="1100" height="619" loading="lazy" decoding="async" alt="A Lilywhite footballer wearing navy boxing gloves in a dramatic stadium tunnel">
+      <div class="lang-copy"><div class="eyebrow">🥊 Callum Lang · The main event</div><h2>Clubber Lang</h2><div class="lang-price"><span>FIRST GOALSCORER<br>Only if he starts</span><strong>17/2</strong></div><p>The rebuild needed somebody to turn promise into goals. Lang has taken the job. His derby double gave North End their first league win, then he followed it with the goal at Watford. Three league goals, two scoring appearances in succession and one man arriving in fighting form.</p><p>Lincoln will be organised and difficult to prise open, which makes Lang's directness and willingness to attack the penalty area even more important. If he is named in the XI, <b>17/2 first goalscorer</b> is the punchy play. Prediction? Lang.</p><p>And with Lincoln's travelling contingent unlikely to test the structural limits of the Bill Shankly Kop, this should sound and feel overwhelmingly like North End's ground. Make the noise, take the initiative and give the compact red-and-white delegation a long journey home.</p></div>
     </section>
 
     <div class="headline"><h2>🎟️ The Matchday card</h2><div class="rule"></div></div>
@@ -142,7 +143,7 @@
 
     <section class="verdict"><h2>Same score. More history. COYW.</h2><p>Lincoln deserve respect and may make this uncomfortable, but Preston have the stronger attacking form, a squad beginning to take shape and another Deepdale crowd ready to believe. The table still says trouble. The market and the direction of travel say opportunity. <b>PNE 2–1.</b></p></section>
 
-    <div class="sources">Prices checked at 08:05 BST through <a href="https://www.oddschecker.com/football/english/championship/preston-v-lincoln/winner">Oddschecker</a> and may change. Match and team data drawn from <a href="https://footystats.org/england/preston-north-end-fc-vs-lincoln-city-fc-h2h-stats">FootyStats</a>, the <a href="https://www.pnefc.net/news/2026/september/11/match-preview---lincoln-city--h-/">official PNE preview</a> and <a href="https://www.sportsmole.co.uk/football/preston-north-end/preview/preston-vs-lincoln-prediction-team-news-lineups_604837.html">Sports Mole</a>. Early-season home/away splits are small samples. Predicted line-ups are not confirmed. Check prices and teams before betting. 18+. Gamble responsibly.</div>
+    <div class="sources">Match prices checked at 08:05 BST through <a href="https://www.oddschecker.com/football/english/championship/preston-v-lincoln/winner">Oddschecker</a>; Lang's first-goalscorer price checked at 13:43 BST through <a href="https://www.sportsgambler.com/betting-tips/football/preston-vs-lincoln-prediction-lineups-odds-2026-09-12/">SportsGambler</a>. All prices may change. Match and team data drawn from <a href="https://footystats.org/england/preston-north-end-fc-vs-lincoln-city-fc-h2h-stats">FootyStats</a>, the <a href="https://www.pnefc.net/news/2026/september/11/match-preview---lincoln-city--h-/">official PNE preview</a> and <a href="https://www.sportsmole.co.uk/football/preston-north-end/preview/preston-vs-lincoln-prediction-team-news-lineups_604837.html">Sports Mole</a>. Early-season home/away splits are small samples. Predicted line-ups are not confirmed. Check prices and teams before betting. 18+. Gamble responsibly.</div>
   </main>
 </article>
 </body>
