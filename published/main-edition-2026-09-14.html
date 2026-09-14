@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>The Daily Winner — Monday 14 September 2026</title><style>html,body{margin:0;min-height:100%;background:#fff;font-family:Arial,sans-serif}.loading{text-align:center;padding:50px;font-weight:700}</style></head><body><div class="loading">Loading Monday's Daily Winner…</div><script>
+fetch('/drafts/main-edition-2026-09-14.html').then(r=>r.text()).then(h=>{
+const changes=[
+['23 FLAT RACES · FIRST DRAFT','23 FLAT RACES · MORNING EDITION'],
+['4.21 Thirsk · 11/4 evening','4.21 Thirsk · 9/4 morning'],
+['8.30 Kempton · 10/3 evening','8.30 Kempton · 11/4 morning'],
+['3.51 Thirsk · 15/2 evening','3.51 Thirsk · 9/2 morning'],
+["OFFIAH'S BOY · 4.42 Windsor · around 8/1 evening","OFFIAH'S BOY · 4.42 Windsor · 11/1 morning"],
+['Our price-blind work put him top of the race and the independent Proform check agreed. At around 8/1, that gap between the figures and the market is worth watching closely.','Our numbers put him top of the race, and the wider form picture gives us no reason to back away. At 11/1 this morning, that gap between our view and the market is worth watching closely.'],
+['<b>Snooker McCrew</b> · Ocean Force · Mbappe','<b>Snooker McCrew</b> · Mbappe <span style="color:#777">· Ocean Force NR</span>'],
+['the Top 3 board produced one of its strongest days yet.','the No.1 column produced its strongest day of the week.'],
+['Evening prices are indications only and may change.','Morning prices are indications only and may change.']
+];
+for(const [a,b] of changes) h=h.replace(a,b);
+document.open();document.write(h);document.close();
+}).catch(()=>{document.body.innerHTML='<div class="loading">Monday edition is temporarily unavailable. Please refresh.</div>';});
+</script></body></html>
